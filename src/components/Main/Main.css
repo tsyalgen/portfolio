@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 83px 0 100px 0;
+}
+
+.main__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main__name{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    margin: 40px 0 30px 0;
+    width: 20%;
+    color: #070707;
+}
+
+.main__description{
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    width: 30%;
+    color: #070707;
+    white-space: pre-line;
+    margin: 95px 0 50px 0;
+}
+
+.knopka{
+    width: 20px;
+    height: 70px;
+    margin: 65px 0 55px 0;
+}
+
+.main__photo{
+    background: url("../../images/photo_desktop.png") no-repeat center center;
+    height: 388px;
+    max-width: 945px;
+}
