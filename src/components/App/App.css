@@ -17,7 +17,24 @@
   text-rendering: optimizeLegibility;
 }
 
+.page::before {
+  content: '';
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  height: 83px;
+  width: 100%;
+  background-color: #ffffff;
+  object-fit: contain;
+}
+
 .content {
   max-width: 940px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .page::before {
+    all: revert;
+  }
 }

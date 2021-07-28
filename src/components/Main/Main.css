@@ -43,3 +43,62 @@
     height: 388px;
     max-width: 945px;
 }
+
+@media screen and (max-width: 960px){
+    .main{
+        margin: 0 20px;
+    }
+    .main__description{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .main__name {
+        font-size: 44px;
+        line-height: 57px;
+    }
+    .main__description{
+        font-size: 16px;
+        line-height: 20px;
+        margin: 105px 0 40px 0;
+        width: 50%;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .main{
+        padding: 0;
+    }
+
+    .main__info{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        /*margin: 0 10px;*/
+    }
+
+    .main__name {
+        font-size: 47px;
+        line-height: 58px;
+    }
+
+    .main__description{
+        font-size: 18px;
+        line-height: 22px;
+        width: 100%;
+        margin: 0 0 35px 0;
+        padding-left: 0;
+    }
+
+    .knopka{
+        display: none;
+    }
+
+    .main__photo{
+        background: url("../../images/photo_mobile.png") no-repeat center center;
+        height: 478px;
+        max-width: 500px;
+    }
+}
