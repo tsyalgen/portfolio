@@ -2,6 +2,8 @@ import './Skills.css';
 import figma from '../../images/Figma.svg';
 
 const Skills = () => {
+
+    //TODO переделать на 100% растяжение по контенту и отображение одной строкой
     return(
         <section id="skills" className="skills">
             <h2 className="skills__title">Skills</h2>
