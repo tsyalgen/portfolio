@@ -7,7 +7,7 @@ const Skills = () => {
     return(
         <section id="skills" className="skills">
             <h2 className="skills__title">Skills</h2>
-            <p className="skills__text">I work in such programs as</p>
+            <p className="skills__text">I work with such techs as</p>
             <ul className="skills__items">
                 <li className="skills__item">
                     <a className="skills__item__link" href="#" rel="noreferrer noopener" >
