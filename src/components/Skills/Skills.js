@@ -1,9 +1,19 @@
 import './Skills.css';
-import figma from '../../images/Figma.svg';
+import figma from '../../images/figma.svg';
+import html from '../../images/html.svg';
+import css from '../../images/css.svg';
+import js from '../../images/js.svg';
+import react from '../../images/react.svg';
+import redux from '../../images/redux.svg';
+import nodejs from '../../images/nodejs.svg';
+import nextjs from '../../images/nextjs.svg';
+import mongodb from '../../images/mongodb.svg';
+import git from '../../images/git.svg';
+
+
 
 const Skills = () => {
 
-    //TODO переделать на 100% растяжение по контенту и отображение одной строкой
     return(
         <section id="skills" className="skills">
             <h2 className="skills__title">Skills</h2>
@@ -11,55 +21,55 @@ const Skills = () => {
             <ul className="skills__items">
                 <li className="skills__item">
                     <a className="skills__item__link" href="#" rel="noreferrer noopener" >
-                        <img src={figma} alt="figma logo" className="skills__item__image transparence"/>
+                        <img src={html} alt="html logo" className="skills__item__image transparence"/>
                         <p className="skills__item__name">HTML</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="#" rel="noreferrer noopener" >
-                        <img src={figma} alt="figma logo" className="skills__item__image transparence"/>
+                        <img src={css} alt="css logo" className="skills__item__image transparence"/>
                         <p className="skills__item__name">CSS</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="#" rel="noreferrer noopener" >
-                        <img src={figma} alt="figma logo" className="skills__item__image transparence"/>
+                        <img src={js} alt="js logo" className="skills__item__image transparence"/>
                         <p className="skills__item__name">JavaScript</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="#" rel="noreferrer noopener" >
-                        <img src={figma} alt="figma logo" className="skills__item__image transparence"/>
+                        <img src={react} alt="react logo" className="skills__item__image transparence"/>
                         <p className="skills__item__name">ReactJS</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="#" rel="noreferrer noopener" >
-                        <img src={figma} alt="figma logo" className="skills__item__image transparence"/>
+                        <img src={redux} alt="redux logo" className="skills__item__image transparence"/>
                         <p className="skills__item__name">Redux</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="#" rel="noreferrer noopener" >
-                        <img src={figma} alt="figma logo" className="skills__item__image transparence"/>
+                        <img src={nodejs} alt="nodejs logo" className="skills__item__image transparence"/>
                         <p className="skills__item__name">NodeJS</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="#" rel="noreferrer noopener" >
-                        <img src={figma} alt="figma logo" className="skills__item__image transparence"/>
-                        <p className="skills__item__name">NextJS</p>
-                    </a>
-                </li>
-                <li className="skills__item">
-                    <a className="skills__item__link" href="#" rel="noreferrer noopener" >
-                        <img src={figma} alt="figma logo" className="skills__item__image transparence"/>
+                        <img src={mongodb} alt="mongodb logo" className="skills__item__image transparence"/>
                         <p className="skills__item__name">MongoDB</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="#" rel="noreferrer noopener" >
-                        <img src={figma} alt="figma logo" className="skills__item__image transparence"/>
+                        <img src={nextjs} alt="nextjs logo" className="skills__item__image transparence"/>
+                        <p className="skills__item__name">NextJS</p>
+                    </a>
+                </li>
+                <li className="skills__item">
+                    <a className="skills__item__link" href="#" rel="noreferrer noopener" >
+                        <img src={git} alt="git logo" className="skills__item__image transparence"/>
                         <p className="skills__item__name">GIT</p>
                     </a>
                 </li>
