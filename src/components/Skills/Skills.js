@@ -21,61 +21,61 @@ const Skills = () => {
             <ul className="skills__items">
                 <li className="skills__item">
                     <a className="skills__item__link" href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noreferrer noopener" >
-                        <img src={html} alt="html logo" className="skills__item__image transparence"/>
+                        <img src={html} alt="html logo" className="skills__item__image"/>
                         <p className="skills__item__name">HTML</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="https://www.w3.org/TR/CSS/" target="_blank" rel="noreferrer noopener" >
-                        <img src={css} alt="css logo" className="skills__item__image transparence"/>
+                        <img src={css} alt="css logo" className="skills__item__image"/>
                         <p className="skills__item__name">CSS</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/" target="_blank" rel="noreferrer noopener" >
-                        <img src={js} alt="js logo" className="skills__item__image transparence"/>
+                        <img src={js} alt="js logo" className="skills__item__image"/>
                         <p className="skills__item__name">JavaScript</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="https://reactjs.org/" target="_blank" rel="noreferrer noopener" >
-                        <img src={react} alt="react logo" className="skills__item__image transparence"/>
+                        <img src={react} alt="react logo" className="skills__item__image"/>
                         <p className="skills__item__name">ReactJS</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="https://redux.js.org/" target="_blank" rel="noreferrer noopener" >
-                        <img src={redux} alt="redux logo" className="skills__item__image transparence"/>
+                        <img src={redux} alt="redux logo" className="skills__item__image"/>
                         <p className="skills__item__name">Redux</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="https://nodejs.org/en/" target="_blank" rel="noreferrer noopener" >
-                        <img src={nodejs} alt="nodejs logo" className="skills__item__image transparence"/>
+                        <img src={nodejs} alt="nodejs logo" className="skills__item__image"/>
                         <p className="skills__item__name">Node.js</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="https://www.mongodb.com/" target="_blank" rel="noreferrer noopener" >
-                        <img src={mongodb} alt="mongodb logo" className="skills__item__image transparence"/>
+                        <img src={mongodb} alt="mongodb logo" className="skills__item__image"/>
                         <p className="skills__item__name">MongoDB</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="https://nextjs.org/" target="_blank" rel="noreferrer noopener" >
-                        <img src={nextjs} alt="nextjs logo" className="skills__item__image transparence"/>
+                        <img src={nextjs} alt="nextjs logo" className="skills__item__image"/>
                         <p className="skills__item__name">Next.js</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="https://git-scm.com/" target="_blank" rel="noreferrer noopener" >
-                        <img src={git} alt="git logo" className="skills__item__image transparence"/>
+                        <img src={git} alt="git logo" className="skills__item__image"/>
                         <p className="skills__item__name">GIT</p>
                     </a>
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="https://www.figma.com/" target="_blank" rel="noreferrer noopener" >
-                        <img src={figma} alt="figma logo" className="skills__item__image transparence"/>
+                        <img src={figma} alt="figma logo" className="skills__item__image"/>
                         <p className="skills__item__name">Figma</p>
                     </a>
                 </li>
