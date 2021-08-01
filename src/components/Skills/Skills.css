@@ -45,11 +45,13 @@
 
 .skills__item:hover .skills__item__image{
     opacity: 0.8;
+    transform: scale(1.05);
 }
 
 .skills__item__image{
     width: 90px;
     height: 90px;
+    transition: transform 0.2s ease-out 0s;
 }
 
 .skills__item__name{

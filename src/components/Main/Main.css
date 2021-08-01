@@ -39,7 +39,7 @@
 }
 
 .main__photo{
-    background: url("../../images/me.JPG") no-repeat center center;
+    background: url("../../images/me.jpeg") no-repeat center center;
     height: 388px;
     max-width: 945px;
 }
@@ -97,7 +97,7 @@
     }
 
     .main__photo{
-        background: url("../../images/me_mobile.JPG") no-repeat center center;
+        background: url("../../images/me_mobile.jpeg") no-repeat center center;
         height: 463px;
         max-width: 460px;
     }
