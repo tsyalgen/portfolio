@@ -9,7 +9,7 @@ const Contacts = () => {
         <section id="contacts" className="contacts">
             <h2 className="contacts__title">Contacts</h2>
             <p className="contacts__text">Want to know more or just chat? You are welcome!</p>
-            <a className="contacts__email transparence" href="mailto:tsyalgen@gmail.com">Send message</a>
+            <a className="contacts__email" href="mailto:tsyalgen@gmail.com">Send message</a>
             <ul className="contacts__social">
                 <li className="contacts__item">
                     <a href="https://t.me/atsybin" target="_blank" rel="noreferrer noopener" className="contacts__link">
