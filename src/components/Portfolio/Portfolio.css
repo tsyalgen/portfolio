@@ -105,6 +105,7 @@
     width: 45px;
     transition: transform 0.2s ease-out 0s;
     z-index: 3;
+    border-radius: 15px;
 }
 
 .portfolio__link__external:hover{
@@ -145,6 +146,7 @@
     align-self: start;
     margin-right: 20px;
     margin-top: 20px;
+    border-radius: 16px;
 }
 
 
