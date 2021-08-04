@@ -6,7 +6,7 @@ import js from '../../images/js.svg';
 import react from '../../images/react.svg';
 import redux from '../../images/redux.svg';
 import nodejs from '../../images/nodejs.svg';
-import nextjs from '../../images/nextjs.svg';
+import express from '../../images/express.svg';
 import mongodb from '../../images/mongodb.svg';
 import git from '../../images/git.svg';
 
@@ -63,8 +63,8 @@ const Skills = () => {
                 </li>
                 <li className="skills__item">
                     <a className="skills__item__link" href="https://nextjs.org/" target="_blank" rel="noreferrer noopener" >
-                        <img src={nextjs} alt="nextjs logo" className="skills__item__image"/>
-                        <p className="skills__item__name">Next.js</p>
+                        <img src={express} alt="nextjs logo" className="skills__item__image"/>
+                        <p className="skills__item__name">Express</p>
                     </a>
                 </li>
                 <li className="skills__item">
