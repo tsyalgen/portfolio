@@ -62,7 +62,7 @@ const Skills = () => {
                     </a>
                 </li>
                 <li className="skills__item">
-                    <a className="skills__item__link" href="https://nextjs.org/" target="_blank" rel="noreferrer noopener" >
+                    <a className="skills__item__link" href="https://expressjs.com" target="_blank" rel="noreferrer noopener" >
                         <img src={express} alt="nextjs logo" className="skills__item__image"/>
                         <p className="skills__item__name">Express</p>
                     </a>
