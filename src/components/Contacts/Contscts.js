@@ -24,7 +24,7 @@ const Contacts = () => {
                     </a>
                 </li>
                 <li className="contacts__item">
-                    <a href="https://www.instagram.com/atsybin/" target="_blank" rel="noreferrer noopener" className="contacts__link">
+                    <a href="https://www.linkedin.com/in/atsybin/" target="_blank" rel="noreferrer noopener" className="contacts__link">
                         <img src={linkedin} alt="linkedin logo" className="contacts__image"/>
                         <span className="contacts__item_hover">Linkedin</span>
                     </a>
