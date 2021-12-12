@@ -3,8 +3,9 @@ import figma from '../../images/figma.svg';
 import html from '../../images/html.svg';
 import css from '../../images/css.svg';
 import js from '../../images/js.svg';
+import vue from '../../images/vue.svg';
 import react from '../../images/react.svg';
-import redux from '../../images/redux.svg';
+// import redux from '../../images/redux.svg';
 import nodejs from '../../images/nodejs.svg';
 import express from '../../images/express.svg';
 import mongodb from '../../images/mongodb.svg';
@@ -38,15 +39,15 @@ const Skills = () => {
                     </a>
                 </li>
                 <li className="skills__item">
-                    <a className="skills__item__link" href="https://reactjs.org/" target="_blank" rel="noreferrer noopener" >
-                        <img src={react} alt="react logo" className="skills__item__image"/>
-                        <p className="skills__item__name">ReactJS</p>
+                    <a className="skills__item__link" href="https://vuejs.org/" target="_blank" rel="noreferrer noopener" >
+                        <img src={vue} alt="vue logo" className="skills__item__image"/>
+                        <p className="skills__item__name">Vue.js</p>
                     </a>
                 </li>
                 <li className="skills__item">
-                    <a className="skills__item__link" href="https://redux.js.org/" target="_blank" rel="noreferrer noopener" >
-                        <img src={redux} alt="redux logo" className="skills__item__image"/>
-                        <p className="skills__item__name">Redux</p>
+                    <a className="skills__item__link" href="https://reactjs.org/" target="_blank" rel="noreferrer noopener" >
+                        <img src={react} alt="react logo" className="skills__item__image"/>
+                        <p className="skills__item__name">ReactJS</p>
                     </a>
                 </li>
                 <li className="skills__item">

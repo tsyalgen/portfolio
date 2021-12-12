@@ -4,9 +4,9 @@ const About = () => {
     return(
         <section id="about" className="about">
             <h2 className="about__title">About me</h2>
-            <p className="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac velit hendrerit, posuere lacus at, accumsan quam.</p>
-            <p className="about__text">Etiam et nibh malesuada, tempor ante lobortis, facilisis orci. Nullam at lobortis dui.</p>
-            <p className="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className="about__text">Hi, I'm Alex - frontend developer from Saint-Petersburg. I'm interested in web development and everything connected with it.</p>
+            <p className="about__text">I'm working at gamedev company Saber Interactive.</p>
+            <p className="about__text">Ready to implement excellent projects with wonderful people.</p>
         </section>
     );
 }
