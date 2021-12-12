@@ -69,11 +69,11 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(7,7,7, 0.5);
+    background: rgba(7,7,7, 0.3);
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-start;
     z-index: 2;
     transition: all 0.3s ease-out 0s;
 }
@@ -83,36 +83,51 @@
     opacity: 1;
 }
 
-.portfolio__link__info{
+.portfolio__link-info{
     background: url("../../images/info.svg") no-repeat center center;
     background-size: contain;
     height: 45px;
     width: 45px;
-    margin-right: 5px;
+    margin: 20px 5px;
     transition: transform 0.2s ease-out 0s;
     cursor: pointer;
     z-index: 3;
 }
 
-.portfolio__link__info:hover{
+.portfolio__link-info:hover{
     transform: scale(1.1);
 }
 
-.portfolio__link__external{
+.portfolio__link-external{
     background: url("../../images/external-link.png") no-repeat center center;
     background-size: contain;
     height: 45px;
     width: 45px;
+    margin: 20px 20px 0 5px;
+    transition: transform 0.2s ease-out 0s;
+    z-index: 3;
+}
+
+.portfolio__link-external:hover{
+    transform: scale(1.1);
+}
+
+.portfolio__link-github{
+    background: url("../../images/github-white.svg") no-repeat center center;
+    background-size: contain;
+    height: 45px;
+    width: 45px;
+    margin-top: 20px;
     transition: transform 0.2s ease-out 0s;
     z-index: 3;
     border-radius: 15px;
 }
 
-.portfolio__link__external:hover{
+.portfolio__link-github:hover{
     transform: scale(1.1);
 }
 
-.portfolio__item__image{
+.portfolio__item-image{
     width: 100%;
     margin-bottom: 15px;
     height: 100%;
@@ -120,37 +135,37 @@
 
 /*project description block*/
 
-.portfolio__menu-toggle{
-    display: none;
-    margin: 0;
-    padding: 0;
-}
-
-.portfolio__menu-toggle:checked ~ .portfolio__menu-box {
+.portfolio__link-info:hover ~ .portfolio__item-info {
     visibility: visible;
     opacity: 1;
 }
 
-.portfolio__menu-toggle:checked ~ .portfolio__link__info{
-    background: url("../../images/close-black.png") no-repeat center center;
+.portfolio__link-info:hover{
+    background: url("../../images/info-black.svg") no-repeat center center;
     background-size: contain;
     align-self: start;
     margin-left: auto;
-    margin-right: 2px;
     margin-top: 20px;
 }
 
-.portfolio__menu-toggle:checked ~ .portfolio__link__external{
+.portfolio__link-info:hover ~ .portfolio__link-external{
     background: url("../../images/external-link-black.png") no-repeat center center;
     background-size: contain;
     align-self: start;
     margin-right: 20px;
     margin-top: 20px;
+}
+
+.portfolio__link-info:hover ~ .portfolio__link-github{
+    background: url("../../images/github.svg") no-repeat center center;
+    background-size: contain;
+    align-self: start;
+    margin-top: 20px;
     border-radius: 16px;
 }
 
 
-.portfolio__menu-box {
+.portfolio__item-info {
     position: absolute;
     visibility: hidden;
     z-index: 2;
@@ -163,4 +178,22 @@
     opacity: 0;
     transition: all 0.3s linear 0s;
     box-shadow: 5px 5px 5px #d0d0d0;
+}
+
+.portfolio__item-title{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    padding: 30px 0 30px;
+}
+
+.portfolio__item-description{
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 20px auto;
+    width: 70%;
 }

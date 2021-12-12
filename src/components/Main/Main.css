@@ -36,6 +36,7 @@
     width: 20px;
     height: 70px;
     margin: 65px 0 55px 0;
+    opacity: 0;
 }
 
 .main__photo{

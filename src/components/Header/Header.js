@@ -22,9 +22,9 @@ const Header = () => {
                 <Link activeClass="header__item_active" to="skills" spy={true} smooth={true}
                       offset={-83} duration={600} className="header__item">Skills
                 </Link>
-                <Link activeClass="header__item_active" to="portfolio" spy={true} smooth={true}
-                      offset={-83} duration={600} className="header__item">Portfolio
-                </Link>
+                {/*<Link activeClass="header__item_active" to="portfolio" spy={true} smooth={true}*/}
+                {/*      offset={-83} duration={600} className="header__item">Portfolio*/}
+                {/*</Link>*/}
                 <Link activeClass="header__item_active" to="contacts" spy={true} smooth={true}
                       offset={-83} duration={600} className="header__item">Contacts
                 </Link>
@@ -55,12 +55,12 @@ const Header = () => {
                               duration={600} className="header__menu-link">Skills
                         </Link>
                     </li>
-                    <li className="header__menu-item">
-                        <Link activeClass="header__menu-item_active" to="portfolio"
-                              spy={true} smooth={true} onClick={handleToggle}
-                              duration={600} className="header__menu-link">Portfolio
-                        </Link>
-                    </li>
+                    {/*<li className="header__menu-item">*/}
+                    {/*    <Link activeClass="header__menu-item_active" to="portfolio"*/}
+                    {/*          spy={true} smooth={true} onClick={handleToggle}*/}
+                    {/*          duration={600} className="header__menu-link">Portfolio*/}
+                    {/*    </Link>*/}
+                    {/*</li>*/}
                     <li className="header__menu-item">
                         <Link activeClass="header__menu-item_active" to="contacts"
                               spy={true} smooth={true} onClick={handleToggle}
