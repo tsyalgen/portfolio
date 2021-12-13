@@ -12,7 +12,7 @@ const Contacts = () => {
             <a className="contacts__email" href="mailto:tsyalgen@gmail.com">Send message</a>
             <ul className="contacts__social">
                 <li className="contacts__item">
-                    <a href="https://t.me/atsybin" target="_blank" rel="noreferrer noopener" className="contacts__link">
+                    <a href="tg://resolve?domain=atsybin" rel="noreferrer noopener" className="contacts__link">
                         <img src={telegram} alt="telegram logo" className="contacts__image"/>
                         <span className="contacts__item_hover">Telegram</span>
                     </a>

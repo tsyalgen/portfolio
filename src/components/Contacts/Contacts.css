@@ -1,9 +1,21 @@
 .contacts{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
-    background: #ffffff;
+    z-index: 1;
+}
+
+.contacts:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: #f6f6f6;
+    object-fit: contain;
 }
 
 .contacts__title{
